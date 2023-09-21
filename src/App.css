@@ -28,6 +28,103 @@
   color: #61dafb;
 }
 
+.header{ 
+  text-align: center;
+  padding: 45px 0;
+ }
+
+ .contenedorHeader{
+  position: relative;
+  background-image: url('https://images.unsplash.com/photo-1683322499436-f4383dd59f5a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3871&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 100%; 
+  min-height: 100vh;
+}
+.containerCenter{
+  position: absolute;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  left: calc((100% - 60%)/2);
+  align-items: center;
+  top: calc(50% - (150px/2));
+  overflow: hidden;  
+  flex-direction: column;
+}
+.containerCenter h1{
+  text-align: center;
+  width: 100%;
+  font-size: 60px;
+  line-height: 1;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.3em 1.1em;
+  color: white;
+}
+.containerCenter p{
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  font-family: white;
+  color: white;
+}
+/* Imagenes */
+.content1{
+    position: relative;
+    display: flex;
+    width: 100%;
+    min-height: 30vh;
+}
+.content1 .cuadro1{
+    width: 50%;
+    background-color: var(--rojo);
+    color: var(--beige);
+    display: flex;
+    justify-content: center;
+    left: calc((100% - 50%)/2);
+    align-items: center;
+    top: calc(50% - (600px/2));
+    flex-flow: row wrap;
+}
+.content1 .content_frameOne{ width: 75%; }
+.content1 .cuadro2{
+    width: 50%;
+    background-color: var(--beige);
+    color: var(--rojo);
+    display: flex;
+    justify-content: center;
+    left: calc((100% - 50%)/2);
+    align-items: center;
+    top: calc(50% - (600px/2));
+    flex-flow: row wrap;
+}
+.content1 .content_frameTwo{ width: 75%; }
+.content1 img {
+  width: 100%;
+}
+.content1 p{
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+/* footer */
+.footer{
+  width: 100%;
+  height: 8vh;
+  background-color: rgb(28, 26, 26);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer p{
+  font-weight: bolder;
+  font-size: 20px;
+  color: white;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
